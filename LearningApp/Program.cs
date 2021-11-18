@@ -12,41 +12,23 @@ namespace LearningApp
     {
       
         static void Main(string[] args)
-        {
+       
 
-            Console.BackgroundColor = ConsoleColor.Magenta;
+            Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
 
-            List<int> Fuckoff = new List<int>();
-            Fuckoff.Add(1);
-            Fuckoff.Add(2);
-            Fuckoff.Add(3);
-            Fuckoff.Add(4);
+            string[] HilterLikesLubba = new string[5] { "Hitler's Favorite Places", "---------------- ", "Lubba's House", "Lubba's Bathroom", "Lubba's Thoughts" };
 
-            var cities = new List<string>();
-            cities.Add("New Bloxburg");
-            cities.Add("Lubba's Cave");
-            cities.Add("Argentina (The Country)");
-            cities.Add("FUck Off Ville");
-
-            var bigCities = new List<string>()
+            for (int i = 0; i < 5; i++)
             {
-                "New Bloxburg",
-                "Lubba's Cave",
-                "Argentina (The Country)",
-                "Fuck off Ville",
-            };
 
-            string[] Hitlerdidnothingwrong = new string[3] { "lubba's House", "Lubba's Bathroom", "Lubba's THoughts" };
-
-            var popularCities = new List<string>();
-
-            popularCities.AddRange(cities);
-            var favouriteCities = new List<string>();
-
-            Console.WriteLine(Hitlerdidnothingwrong[0]);
-            Console.WriteLine(Hitlerdidnothingwrong[1]);
-            Console.WriteLine(Hitlerdidnothingwrong[2]);
+            }
+           
+            Console.WriteLine(HilterLikesLubba[0]);
+            Console.WriteLine(HilterLikesLubba[1]);
+            Console.WriteLine(HilterLikesLubba[2]);
+            Console.WriteLine(HilterLikesLubba[3]);
+            Console.WriteLine(HilterLikesLubba[4]);
             Console.ReadLine();
 
 
