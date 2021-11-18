@@ -5,7 +5,7 @@ namespace LearningApp
     {
         static void Main(string[] args)
         {
-            Console.Write("dumb ass shit");
+            Console.Write("Markiplier was here");
             Console.ReadLine();
 
 
