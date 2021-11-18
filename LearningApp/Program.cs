@@ -5,7 +5,15 @@ namespace LearningApp
     {
         static void Main(string[] args)
         {
-            Console.Write("Markiplier was here");
+
+
+            string cuck = "Fuck dees hoes";
+            
+
+            
+
+
+            Console.Write(cuck);
             Console.ReadLine();
 
 
