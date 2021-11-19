@@ -73,7 +73,12 @@ namespace LearningApp
             };
             Console.WriteLine(Hands[0]);
             Console.ReadLine();
+
             Console.Clear();
+
+            Console.WriteLine(Hands[1]);
+
+            Console.ReadLine();
 
 
 
