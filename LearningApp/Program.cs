@@ -12,6 +12,13 @@ namespace LearningApp
         static void Main(string[] args)
         {
 
+
+
+
+
+
+
+
             
 
             Console.BackgroundColor = ConsoleColor.White;
@@ -26,8 +33,15 @@ namespace LearningApp
                 "Lubba's Thoughts"
             };
 
-            for (int i = 0; i < 5; i++)
+            for (int L = 0; L < 5; L++)
             {
+                Console.Write(HilterLikesLubba[L]);
+                Console.ReadLine();
+                
+
+
+
+
 
             }
            
@@ -74,7 +88,7 @@ namespace LearningApp
                 " 
             };
             Console.Clear();
-
+            
             for (int H = 0; H < Hands.Count; H++){
                 Console.Write(Hands[H]);
                 Console.ReadLine();
