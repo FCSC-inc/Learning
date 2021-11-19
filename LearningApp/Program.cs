@@ -12,6 +12,8 @@ namespace LearningApp
         static void Main(string[] args)
         {
 
+            
+
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
 
@@ -71,14 +73,14 @@ namespace LearningApp
                 ____$$$_______________$$
                 " 
             };
-            Console.WriteLine(Hands[0]);
-            Console.ReadLine();
-
             Console.Clear();
 
-            Console.WriteLine(Hands[1]);
-
-            Console.ReadLine();
+            for (int H = 0; H < Hands.Count; H++){
+                Console.Write(Hands[H]);
+                Console.ReadLine();
+                Console.Clear();            
+            }
+            
 
 
 
