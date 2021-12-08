@@ -10,16 +10,13 @@ namespace LearningApp
     {
         public static void Program()
         {
-            string[] Words = new string[6]
+            string[] Words = new string[5]
             {
                 "Noun, Place",
-                "Phrase, something happeneing present tense",
-                "Verb, ed",
-                "Verb, action",
+                "Verb, ending in ed",
+                "Verb, ending in ed",
                 "Name, Person",
-                "Verb, action"
-                    
-
+                "Verb, ending in ed"
             };
 
             for (int An = 0; An < Words.Length; An++)
@@ -30,10 +27,10 @@ namespace LearningApp
             }
 
             string MadLib = $@"
-Mary drove to her {Words[0]}.
-when she got there she realized {Words[1]}.
-She got {Words[2]}, and then {Words[3]}.
-While this was happening, {Words[4]} was {Words[5]}
+Mary drove to {Words[0]}.
+when she got there she realized something.
+She got {Words[1]}, and then {Words[2]}.
+While this was happening, {Words[3]} was {Words[4]}
 ";
 
             Console.Write(MadLib);
