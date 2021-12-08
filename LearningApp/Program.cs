@@ -11,103 +11,43 @@ namespace LearningApp
       
         static void Main(string[] args)
         {
+            //ListLearning.Program();
+            Madlibs.Program();
 
 
+            bool brycesleeping = true;
 
+            bool bryceisviolent = false;
+            //bool result = ;
 
+            // && || !
 
+            // == > < <= >=
 
-
-
-            
-
-            Console.BackgroundColor = ConsoleColor.White;
-            Console.ForegroundColor = ConsoleColor.Black;
-
-            string[] HilterLikesLubba = new string[5] 
-            { 
-                "Hitler's Favorite Places",
-                "---------------- ",
-                "Lubba's House",
-                "Lubba's Bathroom",
-                "Lubba's Thoughts"
-            };
-
-            for (int L = 0; L < 5; L++)
+            if (brycesleeping)
             {
-                Console.Write(HilterLikesLubba[L]);
-                Console.ReadLine();
-                
-
-
-
-
-
+                Console.WriteLine("he' sleeping");
             }
-           
-            
-
-            List<string> Hands = new List<string>()
+            if (brycesleeping && bryceisviolent)
             {
-                @"
-                ░░░░░░░░░░░░░░░░░░░░░
-                ░░░▄█▀█▄█▀█▄▄▄░░░░░░░
-                ░░█▒░░▀█▄▄░░░▀▀█░░░░░
-                ░█▒░░░░░▒░░░░▒▄░▀▀█▄░
-                ░█▒░░░░█▒░░▄▀░░░▒░░█░
-                ░█▒░░░█▒░░█▀▒░░█▀░░▀█
-                ░█▒░░░█▒░░█▒░░█▓░░░▓█
-                ▄▀█▓▓░█▒░▓█▓░░█▓░░▓▄█
-                █▒▒████▄▓▓█▓░░█▓░░▄█░
-                █▒▒░░░░░▀█▄▀░▄▀▓▄█▀░░
-                █▒▓▓▓█▀▀▄▀█▄▄▀▄▄▀░░░░
-                ░▀▄▄▄█▄▄▀░░░░░░░░░░░░
-                ",@"
-                __________$$$$$$
-                _________$$____$$
-                _________$$$__$$$
-                _________$$_$$_$$
-                _________$$____$$
-                _________$$____$$
-                _________$$____$$
-                _________$$____$$$$$$$
-                ___$$$$$$$$____$$____$$
-                _$$$$$___$$____$$____$$$$$$
-                $$$_$$___$$____$$____$$___$$
-                $$__$$___$$____$$____$$___$$
-                $$__$$___$$____$$____$$___$$
-                $$__$$___$$____$$___$$$___$$
-                $$__$$___$$____$$____$____$$
-                $$____$$$__$$$$__$$$$___$_$$
-                $$________________________$$
-                _$$_______________________$$
-                _$$$_____________________$$
-                __$$$$_________________$$$
-                ____$$_________________$
-                ____$$$_______________$$
-                " 
-            };
-            Console.Clear();
-            
-            for (int H = 0; H < Hands.Count; H++){
-                Console.Write(Hands[H]);
-                Console.ReadLine();
-                Console.Clear();            
+                Console.WriteLine("He Awake");
             }
-            
 
 
 
 
 
+             
+            string test = Console.ReadLine();
 
+            bool test2 = test.ToLower() == "yes";
+            Console.WriteLine(test2);
 
-
+            Console.WriteLine(test);
+            Console.ReadKey();
 
 
 
         }
-
-
     }
 }
