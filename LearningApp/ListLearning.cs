@@ -6,8 +6,6 @@ namespace LearningApp
     {
         public static void Program()
         {
-
-
             Console.BackgroundColor = ConsoleColor.White;
             Console.ForegroundColor = ConsoleColor.Black;
 
@@ -26,8 +24,6 @@ namespace LearningApp
                 Console.Write(HilterLikesLubba[L]);
                 Console.ReadLine();
             }
-
-
 
             List<string> Hands = new List<string>()
             {
